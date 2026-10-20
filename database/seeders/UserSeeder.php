@@ -15,9 +15,9 @@ class UserSeeder extends Seeder
     {
         User::create([  // 1
             'nama' => 'Ahmad Zaki',
-            'is_admin' => false,
-            'is_audite' => false,
-            'is_auditor' => false,
+            'is_admin' => true,
+            'is_audite' => true,
+            'is_auditor' => true,
             'email' => 'ahmad@pens.ac.id',
             'password' => bcrypt('1234'),
         ]);
